@@ -8,6 +8,8 @@ class Checkmd < Formula
   # Uncomment and modify if your script has dependencies
   depends_on "python@3"
 
+  bottle :unneeded
+
   def install
     # Option 1: If checkmd is a single script file
     bin.install "checkmd"
